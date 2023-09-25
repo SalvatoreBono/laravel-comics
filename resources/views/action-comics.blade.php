@@ -15,11 +15,20 @@
                     <div class=" text-white fw-bold me-auto"><span class="text-action-comics">U.S. Price:
                         </span>$19.99</div>
                     <div class="fw-bold text-action-comics">AVAILABLE</div>
-
-                    <div class="fw-bold text-white ps-5 ">Check Availability</div>
+                    <div class="dropdown">
+                        <button style="background: none; border: none" class="dropdown-toggle text-white fw-bold ps-5 "
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Check Availability
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <p>{{ $singleComic['description'] }}</p>
+                <p class="pt-3">{{ $singleComic['description'] }}</p>
             </div>
             <img style="width: 250px" src="/img/adv.jpg" alt="">
 
