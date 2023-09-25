@@ -11,7 +11,8 @@
 
                 <h4 class="text-uppercase fw-bold h-action-comics">
                     {{ $singleComic['title'] }}</h4>
-                <div style="height: 50px" class="d-flex bg-action-comics bg-action-comics align-items-center pe-3 ps-3">
+                <div style="height: 50px; border-bottom: 1.5px solid black;"
+                    class="d-flex bg-action-comics bg-action-comics align-items-center pe-3 ps-3">
                     <div class=" text-white fw-bold me-auto"><span class="text-action-comics">U.S. Price:
                         </span>$19.99</div>
                     <div class="fw-bold text-action-comics ">AVAILABLE</div>
