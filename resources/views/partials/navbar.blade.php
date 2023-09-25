@@ -1,6 +1,6 @@
 <nav class="navbar bg-body-tertiary">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="/img/dc-logo.png" alt="Bootstrap" width="60" height="60" />
         </a>
         <div>
