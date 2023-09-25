@@ -6,7 +6,6 @@
 }
 .bg-action-comics {
     background-color: rgb(85, 186, 89);
-    padding: 0.8rem;
 }
 .text-action-comics {
     color: rgb(176, 238, 120);
@@ -14,4 +13,9 @@
 
 .h-action-comics {
     color: rgb(0, 59, 87);
+}
+.border-right {
+    border-right: 1px solid #000;
+    height: 50px;
+    padding-right: 1.5rem;
 }

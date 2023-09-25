@@ -11,12 +11,13 @@
 
                 <h4 class="text-uppercase fw-bold h-action-comics">
                     {{ $singleComic['title'] }}</h4>
-                <div class="d-flex bg-action-comics bg-action-comics">
+                <div style="height: 50px" class="d-flex bg-action-comics bg-action-comics align-items-center pe-3 ps-3">
                     <div class=" text-white fw-bold me-auto"><span class="text-action-comics">U.S. Price:
                         </span>$19.99</div>
-                    <div class="fw-bold text-action-comics">AVAILABLE</div>
+                    <div class="fw-bold text-action-comics ">AVAILABLE</div>
+                    <div class="border-right"></div>
                     <div class="dropdown">
-                        <button style="background: none; border: none" class="dropdown-toggle text-white fw-bold ps-5 "
+                        <button style="background: none; border: none" class="dropdown-toggle text-white fw-bold ps-4 "
                             type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Check Availability
                         </button>
