@@ -7,7 +7,7 @@
     </div>
     <div class="container pt-5 pb-5">
         <div class="d-flex">
-            <div class="pe-5">
+            <div class="pe-5 col-8">
 
                 <h4 class="text-uppercase fw-bold h-action-comics">
                     {{ $singleComic['title'] }}</h4>
@@ -32,7 +32,10 @@
 
                 <p class="pt-3">{{ $singleComic['description'] }}</p>
             </div>
-            <img style="width: 250px" src="/img/adv.jpg" alt="">
+            <div>
+                <h6 class="text-uppercase  fw-bold text-secondary text-end">advertisement</h6>
+                <img class="img-adv" src="/img/adv.jpg" alt="">
+            </div>
 
         </div>
     </div>

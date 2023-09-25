@@ -106,7 +106,7 @@
                 <h3 class="title-series">CURRENT SERIES</h3>
             </div>
             <div class="pt-5 text-white pb-3">
-                <div class="row row-cols-6 gy-5">
+                <div class="row row-cols-6 gy-5 action-comics-imgs">
                     @foreach ($homeThumbs as $singleThumbs)
                         <div class="col pb-5">
                             <a href="Action Comics">
