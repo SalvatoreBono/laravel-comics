@@ -125,10 +125,10 @@
     <div class="bg-main-bottom">
         <div class="container text-white pt-5 pb-5">
             <div class="main-bottom">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center gap-3">
                     @foreach ($bottomImgs as $singleBottomImg)
-                        <img class="pe-3" src="{{ $singleBottomImg['img'] }}" alt="" />
-                        <div class="text-uppercase">{{ $singleBottomImg['title'] }}</div>
+                        <img style="width: 60px;" src="{{ $singleBottomImg['img'] }}" alt="" />
+                        <div class="text-uppercase ps-2 pe-3">{{ $singleBottomImg['title'] }}</div>
                     @endforeach
                 </div>
             </div>
